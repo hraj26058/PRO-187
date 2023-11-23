@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aliceblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .main-container{
+            background-color: white;
+            width: 700px;
+            height: 570px;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-container-content{
+            background-color: white;
+            width: 700px;
+            height: 570px;
+            display: flex;
+            border-radius: 0px 5px 5px 0px;
+        }
+        .navbar{
+            width:220px;
+            height: 570px;
+            background-color: black;
+            border-radius: 5px 0px 0px 5px;
+        }
+        .profile-img{
+            padding-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 150px;
+        }
+
+        .scanner-img{
+            padding-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 120px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .grid-item {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-container-content">
+            <div class="navbar">
+                <div class="profile-img">
+                    <img src="https://avatars.githubusercontent.com/u/81627508?v=4" width="150" height="150" style="border-radius: 100px;"/>
+                </div>
+                <div class="scanner-img">
+                    <img src="/about_me/pattern-icon-05.png" width="120" height="120"/>
+                </div>
+            </div>
+    
+            <div class="page-content">
+                <div class="about-me" style="display: flex;">
+                    <div class="about-me-details">
+                    <h1 style="margin-left: 20px;">Harsh Raj</h1>
+                    <h5 style="margin-left: 20px; margin-top: -20px;">WhiteHat Jr Student</h5>
+                    <h6 style="margin-left: 20px; margin-right: 20px;">I am 11th Standard Student from Bihar. This is my portfolio about of my whitehat jr journey's details.</h6>
+                    </div>
+    
+                    <div class="scanner-img" style="margin-right: 20px;">
+                        <img src="/assets/frame.png" width="120" height="120"/>
+                    </div>
+                </div>
+    
+                <div class="my-projects">
+                    <h2 style="margin-left: 20px;">Projects</h2>
+                    <hr style="margin-top: -15px; margin-left: 20px; margin-right: 20px; height: 3px; background-color: blueviolet; border-radius: 10px;">
+    
+                    <div class="projects-pattern-grid">
+                        <div class="grid-container">
+                            <div class="grid-item"><img src="/ar_menu_card/pattern-icon-02.png" width="120" height="120"/>
+                                <h4 style="margin-top: -10px;">Ar Menu Card</h4></div>
+                            <div class="grid-item"><img src="/ar_navigation/pattern-icon-03.png" width="120" height="120"/>
+                                <h4 style="margin-top: -10px;">Ar Navigation</h4></div>
+                            <div class="grid-item"><img src="/first_person_shooting_game/pattern-icon-06.png" width="120" height="120"/>
+                                <h4 style="margin-top: -10px;">FRS Game</h4></div>
+                            <div class="grid-item"><img src="/flight_simulation/pattern-icon-01.png" width="120" height="120"/>
+                                <h4 style="margin-top: -10px;">Flight Simulation</h4></div>
+                            <div class="grid-item"><img src="/virtual_tour/pattern-icon-04.png" width="120" height="120"/>
+                                <h4 style="margin-top: -10px;">Virtual Tour</h4></div>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
